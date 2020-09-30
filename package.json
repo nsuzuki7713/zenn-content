@@ -2,14 +2,21 @@
   "name": "zenn-content",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "npx zenn preview",
+    "new:article": "npx zenn new:article",
+    "textlint": "textlint ./**/*.md",
+    "textlint:fix": "textlint  ./**/*.md --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "zenn-cli": "^0.1.40"
+  },
+  "devDependencies": {
+    "textlint": "^11.7.6",
+    "textlint-rule-preset-ja-spacing": "^2.0.2",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1"
   }
 }
