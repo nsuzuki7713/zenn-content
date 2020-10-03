@@ -5,8 +5,8 @@
   "scripts": {
     "preview": "npx zenn preview",
     "new:article": "npx zenn new:article",
-    "textlint": "textlint ./**/*.md",
-    "textlint:fix": "textlint  ./**/*.md --fix"
+    "textlint": "textlint \"./articles/*.md\" \"./books/*.md\" \"./README.md\" || exit 0",
+    "textlint:fix": "textlint \"./articles/*.md\" \"./books/*.md\" \"./README.md\" --fix"
   },
   "keywords": [],
   "author": "",

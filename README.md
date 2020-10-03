@@ -19,3 +19,7 @@ $ npx zenn preview
 # CLIをアップデートする
 npm install zenn-cli@latest
 ```
+
+## textlintの設定
+
+[zenn-cli + reviewdog + textlint + GitHub Actions で執筆体験を最高にする](https://zenn.dev/serima/articles/4dac7baf0b9377b0b58b) を参考にして設定した
