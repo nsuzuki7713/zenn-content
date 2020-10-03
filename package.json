@@ -5,7 +5,7 @@
   "scripts": {
     "preview": "npx zenn preview",
     "new:article": "npx zenn new:article",
-    "textlint": "textlint \"./articles/*.md\" \"./books/*.md\" \"./README.md\" || exit 0",
+    "textlint": "textlint \"./articles/*.md\" \"./books/*.md\" \"./README.md\"",
     "textlint:fix": "textlint \"./articles/*.md\" \"./books/*.md\" \"./README.md\" --fix"
   },
   "keywords": [],
