@@ -1,5 +1,5 @@
 ---
-title: "Cloud StorageをNodeのSDKから実行してみる"
+title: "【GCP】Cloud StorageをNodeのSDKから実行してみる"
 emoji: "🙌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [GCP, GCS]
