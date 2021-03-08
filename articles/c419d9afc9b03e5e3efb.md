@@ -200,7 +200,7 @@ import { v4 } from 'uuid';
 });
 ```
 
-複数のオブジェクトをuploadする場合はzipにまとめることで可能です。
+複数のオブジェクトをzipしてuploadすることも可能です
 ```ts:upload2.ts
 import { Storage, UploadOptions } from '@google-cloud/storage';
 
